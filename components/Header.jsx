@@ -18,7 +18,7 @@ export default function Header({docs}) {
             <div className="absolute inset-x-0 top-full h-px bg-zinc-900/7.5 transition dark:bg-white/7.5">
               {" "}
             </div>
-            <Search />
+            <Search docs={docs}/>
           </div>
         </div>
 
